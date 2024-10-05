@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue; 
+    font-family: Cambria;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    height: 150px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#title{
+    width: 80%;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    font-family: fantasy;
+}
+#navegacion1{
+    width: 80%;
+    background-color: rgb(140, 233, 236);
+}
+#lista{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(140, 233, 236);
+    font-family: fantasy;
+    font-size: 30px;
+}
+#parte1{
+    background-color: rgb(1, 187, 249);
+    position: relative;
+    width: 1300px;
+    height: 500px;
+    text-align: justify;
+    font-family: cursive;
+}
+#Sub1{
+    font-size: 80px;
+    text-align: center;
+    background-color: rgb(1, 187, 249);
+}
+#parf1{
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(1, 187, 249);
+}
+#parte2{
+    position: relative;
+    left: 1310px;
+    bottom: 500px;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(237, 18, 91);
+    text-align: center;
+    font-family: Courier;
+}
+#Sub2{
+    font-size: 60px;
+    text-align: center;
+    background-color: rgb(237, 18, 91);
+}
+#Sub3{
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(237, 18, 91);
+}
+#Sub4{
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(237, 18, 91);
+}
+#boton2{
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+}
+.caja{
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+    border: solid 2px black;
+}
+#caja1{
+    order: 1;
+}
+#caja2{
+    order: 1;
+}
+#caja3{
+    align-self: flex-start;
+    order: -1;
+}
+#caja7{
+    flex-grow: 1;
+}
+#parte3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 500px;
+}
+#parte4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 2000px;
+    align-items: end;
+    position: relative;
+    bottom: 500px;
+}
+footer{
+    background-color: yellow;
+    position: relative;
+    bottom: 500px;
+}
+#etiqueta_fin{
+    background-color: yellow;
+    text-align: left;
+}
+.icono{
+    width:60px;
+    height:40px;
+    position: relative;
+    left: 250px;
+    background-color: yellow;
+}
+#text1{
+    position: absolute;
+    left: 900px;
+    top: 70px;
+    background-color: yellow;
+}
+#boton3{
+    position: absolute;
+    left: 1200px;
+    top: 70px;
+    background-color: white;
+}
+#img{
+    width:60px;
+    height:40px;
+}
